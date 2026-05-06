@@ -6,9 +6,6 @@
 #include "battle.h"
 #include "map.h"
 
-void draw_map(Character *p);
-void move_player(Character *p, Character enemies[]);
-
 int main() {
     srand(time(NULL));
 
@@ -19,7 +16,7 @@ int main() {
     init_enemies(enemies);
 
     while (1) {
-        draw_map(&player);
+        draw_map(&player, enemies);
         move_player(&player, enemies);
     }
 

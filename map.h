@@ -3,7 +3,7 @@
 
 #include "player.h"
 
-void draw_map(Character *p);
+void draw_map(Character *p, Character enemies[]);
 void move_player(Character *p,Character enemies[]);
 
 #endif

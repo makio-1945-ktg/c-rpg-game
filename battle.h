@@ -3,6 +3,6 @@
 
 #include "player.h"
 
-int battle(Character *player, Character enemies[]);
+int battle(Character *player, Character *enemy);
 
 #endif
